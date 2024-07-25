@@ -1,0 +1,152 @@
+.header {
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  padding: 30px 0px;
+}
+.header .headerSearch {
+  width: 100%;
+  height: 60px;
+  border: 2px solid #bce3c9;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.header .searchDrop {
+  padding: 10px 3px;
+  width: 24%;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #253d4e;
+  position: relative;
+}
+.header .searchDrop::after {
+  content: "";
+  width: 1px;
+  height: 30px;
+  background: #c6c6c6;
+  position: absolute;
+  right: -21px;
+  top: 5px;
+}
+.header .search {
+  width: 82%;
+  padding-left: 30px;
+  position: relative;
+}
+.header .search input {
+  border: none;
+  outline: none !important;
+  height: 50px;
+  width: 91%;
+  background: none;
+  font-size: 16px;
+  padding: 0px 13px;
+}
+.header .searchIcon {
+  color: gray;
+  position: absolute;
+  top: 14px;
+  right: 15px;
+}
+.header .countryList .searchDrop::after {
+  content: "";
+  display: none;
+}
+.header .countryList .searchDrop {
+  width: 113%;
+  padding: 11px 25px;
+  border: 2px solid #bce3c9;
+  border-radius: 4px;
+}
+.header .slectDrop {
+  left: -16px;
+}
+.header .countryList .slectDrop {
+  left: -4px !important;
+  top: 105%;
+}
+.list-inline-item {
+  margin-left: 26px;
+}
+.header .headerTabs .compare span .bedge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #3bb77e;
+  position: absolute;
+  right: 59px;
+  top: -12px;
+  font-size: 14px;
+}
+.header .headerTabs .wishlist span .bedge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #3bb77e;
+  position: absolute;
+  right: 48px;
+  top: -13px;
+  font-size: 14px;
+}
+.header .headerTabs .cart span .bedge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #3bb77e;
+  position: absolute;
+  right: 19px;
+  top: -13px;
+  font-size: 14px;
+}
+.header .headerTabs li {
+  position: relative;
+  margin-left: 25px;
+}
+.header .headerTabs li :hover {
+  cursor: pointer;
+  color: #3bb77e;
+}
+.searchDrop .catagories {
+  width: 90px;
+}
+.header .dropdownMenue {
+  position: absolute;
+  list-style: none;
+  top: 36px;
+  left: -84px;
+  width: 225%;
+  height: auto;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.05);
+  font-weight: 400;
+  padding-left: 0px;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  z-index: 100;
+}
+.header .dropdownMenue li button {
+  text-transform: capitalize;
+  width: 115%;
+  justify-content: left;
+  font-size: 13px;
+  color: gray!important;
+  padding: 10px 9px;
+  border-radius: 0px;
+  margin-left: -25px;
+}
+.header .dropdownMenue li button svg {
+  margin-right: 8px;
+  opacity: 0.7;
+}
+.header{
+  margin-bottom: 6rem;
+}
+.header .fixed{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}

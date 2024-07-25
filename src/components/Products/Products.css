@@ -1,0 +1,129 @@
+.brand a {
+  text-decoration: none;
+}
+.oldPrice {
+  text-decoration: line-through;
+  font-size: 13px;
+  color: gray;
+}
+.add {
+  color: rgb(107, 185, 107) !important;
+  background-color: #def9ec !important;
+  padding: 5px 25px !important;
+  text-transform: capitalize !important;
+}
+.productThumb .catName {
+  color: #000;
+  opacity: 0.8;
+  font-size: 14px;
+}
+.productThumb .title a {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.productThumb .brand {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+.productThumb .price {
+  font-size: 16px;
+  font-weight: 600;
+}
+.productThumb .oldPrice {
+  font-size: 13px;
+  font-weight: 600;
+}
+.productThumb img {
+  width: 181px;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 385px;
+  width: 248px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  overflow: hidden;
+}
+.overlay ul {
+  width: 85px;
+  height: 34px;
+  background-color: white;
+  display: flex;
+  position: absolute;
+  left: 72px;
+  top: 69px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #bce3c9;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.5s ease-in-out;
+}
+.overlay ul li svg {
+  font-size: 20px;
+  color: #3bb77e;
+}
+.overlay ul li:hover svg {
+  color: #fdc040;
+}
+.MuiTooltip-tooltip {
+  background-color: #3bb77e !important;
+}
+.overlay:hover.overlay ul {
+  opacity: 1;
+}
+.overlay:hover {
+  background-color: rgba(145, 145, 145, 0.1);
+}
+.badge {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  background-color: red;
+  font-size: 16px;
+  padding: 8px 17px;
+  border-top-left-radius: 14px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.hot .productThumb .badge {
+  background-color: #f74b81 !important ;
+}
+.sale .productThumb .badge {
+  background-color: #67bcee !important ;
+}
+.new .productThumb .badge {
+  background-color: #3bb77e !important ;
+}
+.disc .productThumb .badge {
+  background-color: #f59758 !important ;
+}
+.prodSale .best-sale .productitem2 .badge{
+  background-color: #f59758;
+}
+.prodSale .save .productitem2 .badge{
+  background-color: #3bb77e;
+}
+.homeProductsRow2 .prodSlider .productsRow .productitem2{
+  width: 93%;
+  margin:15px;
+  padding: 0px 23px;
+  height: auto;
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  position: relative;
+}
+.homeProductsRow2 .prodSlider .productsRow{
+  padding-top: 0px;
+}

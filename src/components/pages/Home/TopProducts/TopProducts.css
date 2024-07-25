@@ -1,0 +1,51 @@
+.topProductsSection .box h3 {
+  font-size: 30px;
+  position: relative;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.topProductsSection .box h3::before {
+  content: "";
+  width: 30%;
+  height: 3px;
+  background-color: rgb(181, 249, 181);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 200;
+}
+.topProductsSection .box h3::after {
+  content: "";
+  width: 100%;
+  height: 0.5px;
+  background-color: rgb(236, 236, 236);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.topProductsSection .item-sell .sell-pic {
+  width: 33%;
+}
+.topProductsSection .item-sell {
+  padding-top: 20px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.topProductsSection .item-sell:hover {
+ transform: translateY(-10px);
+}
+.topProductsSection .info-sell a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.topProductsSection .css-1qqgbpl-MuiRating-root{
+font-size: 16px!important;
+}
+.topProductsSection .box .item-sell img{
+  border-radius: 12px;
+}
+.topProductsSection .info-sell h6{
+  margin-bottom: 0px!important;
+}

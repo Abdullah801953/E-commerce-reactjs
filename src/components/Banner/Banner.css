@@ -1,0 +1,10 @@
+.col img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.col img:hover{
+    transform: scale(1.03);
+}
+.bannerSection{
+    padding-top: 40px;
+}

@@ -1,0 +1,107 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+.homeslider {
+  padding-top: 60px;
+  
+}
+.home_slider_main {
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+.slick-arrow {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  width: 50px;
+  height: 50px;
+  top: 47%;
+}
+.slick-next {
+  right: 5% !important;
+  z-index: 80;
+}
+.slick-prev {
+  left: 5% !important;
+  z-index: 80;
+}
+.slick-prev:before {
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-size: 30px;
+}
+.slick-next:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-size: 30px;
+}
+.slick-arrow:hover {
+  background-color: #3bb77e !important;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-dots li button:before {
+  font-size: 16px;
+  color: #3bb77e !important;
+}
+.home_slider_main .Slider1 {
+  position: relative;
+  z-index: 99;
+}
+.home_slider_main .info-banner {
+  position: absolute;
+  z-index: 100;
+  top: 21%;
+  left: 10%;
+}
+.home_slider_main .info-banner h1 {
+  font-weight: 700;
+}
+.home_slider_main .info-banner p {
+  font-size: 30px;
+  color: #7e7e7e;
+  line-height: 62px;
+}
+.newsletter {
+  position: relative;
+  bottom: 99px;
+  left: 142px;
+  z-index: 10;
+  display: inline-block;
+}
+.newsletter input {
+  width: 406px;
+  height: 100%;
+  border-radius: 30px;
+  border: none;
+  outline: none !important;
+  padding-left: 59px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  background: #fff;
+  font-size: 16px;
+  position: relative;
+  padding-right: 112px;
+}
+.newsletter button {
+  padding: 16px 23px;
+  border-radius: 30px;
+  color: white;
+  position: absolute;
+  left: 294px;
+  text-transform: capitalize;
+}
+.newsletter .sendIcon{
+  position: absolute;
+  z-index: 20;
+  top: 18px;
+  left: 24px;
+}

@@ -1,0 +1,51 @@
+.slectDrop {
+  width: 255px;
+  height: auto;
+  background-color: white;
+  border: 1px solid #bce3c9;
+  border-top: none;
+  position: absolute;
+  top: 122%;
+  left: -16px;
+  padding: 18px 15px;
+  border-radius: 5px;
+  z-index: 100;
+}
+.slectDrop input {
+  padding: 9px 20px;
+  border: 1px solid #bce3c9;
+  border-radius: 5px;
+  outline: none;
+}
+.catagories {
+  position: relative;
+  top: 0px;
+}
+.slectDrop .searchResult {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 5px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.slectDrop .searchResult li {
+  font-size: 13px;
+  padding: 10px;
+}
+.slectDrop .searchResult li:hover {
+  background-color: #9ddbc9;
+}
+::-webkit-scrollbar {
+  width: 11px !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc !important;
+}
+.active {
+  background-color: #e6e6e6;
+}
+.arrow {
+  position: absolute;
+  top: 0px;
+  right: -25px;
+}
