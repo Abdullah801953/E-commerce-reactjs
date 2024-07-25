@@ -5,6 +5,7 @@ import "./App.css";
 import PageFirst from "./components/pages/Home/PageFirst";
 import Listing from "./components/pages/Home/Listing/Listing";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" element={<PageFirst />} />
           <Route path="/listing" element={<Listing/>} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );
