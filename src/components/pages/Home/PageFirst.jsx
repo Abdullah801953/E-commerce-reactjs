@@ -293,7 +293,7 @@ const PageFirst = () => {
       {/* featured section end here */}
 
       {/* footer section start here */}
-      <Footer/>
+      {/* <Footer/> */}
       {/* footer section end here */}
     </div>
   );
