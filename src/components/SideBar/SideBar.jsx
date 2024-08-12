@@ -160,6 +160,30 @@ const SideBar = () => {
           <li>
             <Checkbox {...label} color="success" /> Red (56)
           </li>
+          <li>
+            <Checkbox {...label} color="success" /> Red (56)
+          </li>
+          <li>
+            <Checkbox {...label} color="success" /> Red (56)
+          </li>
+          <li>
+            <Checkbox {...label} color="success" /> Red (56)
+          </li>
+          <li>
+            <Checkbox {...label} color="success" /> Red (56)
+          </li>
+          <li>
+            <Checkbox {...label} color="success" /> Red (56)
+          </li>
+          <li>
+            <Checkbox {...label} color="success" /> Red (56)
+          </li>
+          <li>
+            <Checkbox {...label} color="success" /> Red (56)
+          </li>
+          <li>
+            <Checkbox {...label} color="success" /> Red (56)
+          </li>
         </ul>
         <div className="d-flex">
           <Button><FilterAltOutlinedIcon/>Filter</Button>

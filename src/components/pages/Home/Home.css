@@ -31,12 +31,13 @@
 }
 .featured .featured-items {
   width: 100%;
+  gap: 16px;
 }
 .featured .featured-items .f-item {
   width: 20%;
   height: 120px;
   background-color: #f4f6fa;
-  margin-right: 35px;
+  margin: auto;
   border-radius: 10px;
 }
 .featured .featured-items .f-item .feature-icon img {

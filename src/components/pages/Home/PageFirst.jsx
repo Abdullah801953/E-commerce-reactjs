@@ -9,11 +9,6 @@ import assets from "../../../assets/Cat_img";
 import Slider from "react-slick";
 import TopProducts from "./TopProducts/TopProducts";
 import NewsLetter from "../../NewsLetter/NewsLetter";
-import Icon1 from "../../../assets/images/icon-1.svg";
-import Icon2 from "../../../assets/images/icon-2.svg";
-import Icon3 from "../../../assets/images/icon-3.svg";
-import Icon4 from "../../../assets/images/icon-4.svg";
-import Icon5 from "../../../assets/images/icon-5.svg";
 import Footer from "../../Footer/Footer";
 const PageFirst = () => {
   var settings = {
@@ -218,83 +213,9 @@ const PageFirst = () => {
       </section>
       {/* top selling end */}
 
-      {/* news letter start here */}
-      <section className="newsLetterSection pt-5">
-        <div className="container-fluid">
-          <div className="box d-flex row">
-            <div className="news-info col-md-6">
-              <h1>Stay home & get your daily needs from our shop</h1>
-              <p>
-                Start You'r Daily Shopping with{" "}
-                <span className="bg-green">Nest Mart</span>
-              </p>
-            </div>
-            <div className="news-img col-md-6">
-              <img src={assets.NewsLetter} alt="" className="w-100" />
-            </div>
-          </div>
-          <NewsLetter />
-        </div>
-      </section>
-      {/* news letter end here */}
+     
 
-      {/* featured section start here */}
-      <section className="featured">
-        <div className="container-fluid">
-          <div className="featured-items d-flex">
-            <div className="f-item row align-items-center">
-              <div className="feature-icon col-md-3">
-                <img src={Icon1} alt="" />
-              </div>
-              <div className="feature-info col-md-9">
-                <h5>Best prices & offers</h5>
-                <p>Orders $50 or more</p>
-              </div>
-            </div>
-            <div className="f-item row align-items-center">
-              <div className="feature-icon col-md-3">
-                <img src={Icon2} alt="" />
-              </div>
-              <div className="feature-info col-md-9">
-                <h5>Free delivery</h5>
-                <p>24/7 amazing services</p>
-              </div>
-            </div>
-            <div className="f-item row align-items-center">
-              <div className="feature-icon col-md-3">
-                <img src={Icon3} alt="" />
-              </div>
-              <div className="feature-info col-md-9">
-                <h5>Great daily deal</h5>
-                <p>When you sign up</p>
-              </div>
-            </div>
-            <div className="f-item row align-items-center">
-              <div className="feature-icon col-md-3">
-                <img src={Icon4} alt="" />
-              </div>
-              <div className="feature-info col-md-9">
-                <h5>Wide assortment</h5>
-                <p>Mega Discounts</p>
-              </div>
-            </div>
-            <div className="f-item row align-items-center">
-              <div className="feature-icon col-md-3">
-                <img src={Icon5} alt="" />
-              </div>
-              <div className="feature-info col-md-9">
-                <h5>Easy returns</h5>
-                <p>Within 30 days</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* featured section end here */}
-
-      {/* footer section start here */}
-      {/* <Footer/> */}
-      {/* footer section end here */}
+     
     </div>
   );
 };

@@ -1,0 +1,44 @@
+.not-found {
+  width: 100%;
+  height: auto;
+  padding: 45px 0;
+}
+.not-found .box {
+  width: 50%;
+  height: auto;
+  padding: 100px 30px;
+  text-align: center;
+  margin: auto;
+}
+.not-found .box h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  opacity: 0.7;
+}
+.not-found .box p {
+  color: black;
+  font-size: 20px;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+.btn-notfound button {
+  background-color: #29a56c !important;
+  text-transform: capitalize;
+  font-size: 14px !important;
+  padding: 12px 45px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-notfound button a{
+    text-decoration: none!important;
+    color: white;
+}
+.btn-notfound button:hover {
+  background-color: #fdc040 !important;
+  padding: 16px 57px;
+}
+.btn-notfound button svg {
+  font-size: 19px !important;
+  padding-bottom: 2px;
+  margin-right: 5px;
+}
