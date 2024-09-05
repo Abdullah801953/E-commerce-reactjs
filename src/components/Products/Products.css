@@ -127,3 +127,15 @@
 .homeProductsRow2 .prodSlider .productsRow{
   padding-top: 0px;
 }
+.infoproduct .title a{
+  position: relative;
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
+}
+.infoproduct .title a:hover{
+  color: #3bb77e;
+}
+.add a{
+  text-decoration: none;
+  color:#3bb77e;
+}

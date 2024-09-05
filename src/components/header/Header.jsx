@@ -1,4 +1,4 @@
-import { React, useEffect, useState,useRef } from "react";
+import { React, useEffect, useState, useRef } from "react";
 import "../header/header.css";
 import Select from "../selectDrop/Select";
 import Logo from "../../assets/images/logo.svg";
@@ -18,6 +18,7 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import ExitToAppOutlinedIcon from "@mui/icons-material/ExitToAppOutlined";
 import { ClickAwayListener } from "@mui/base/ClickAwayListener";
 import Nav from "./Nav/Nav";
+import { Link } from "react-router-dom";
 const Header = () => {
   const counryList = [];
   useEffect(() => {
@@ -37,7 +38,6 @@ const Header = () => {
     }
   };
   const [isDropDown, setisDropDown] = useState(false);
-  
 
   return (
     <div className="header">
@@ -47,7 +47,10 @@ const Header = () => {
           style={{ paddingBottom: "30px" }}
         >
           <div className="col-sm-2">
-            <img src={Logo} alt="" />
+            <Link to={"/"}>
+              {" "}
+              <img src={Logo} alt="" />
+            </Link>
           </div>
           {/* header search start here */}
 
@@ -120,7 +123,7 @@ const Header = () => {
                       <p className="text-center text-white">2</p>
                     </span>
                     <img src={Cart} alt="" />
-                    Cart
+                    <Link to={"/cart"}>Cart</Link>
                   </span>
                 </li>
                 <ClickAwayListener

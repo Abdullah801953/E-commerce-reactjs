@@ -10,6 +10,7 @@ import Slider from "react-slick";
 import TopProducts from "./TopProducts/TopProducts";
 import NewsLetter from "../../NewsLetter/NewsLetter";
 import Footer from "../../Footer/Footer";
+import { Link } from "react-router-dom";
 const PageFirst = () => {
   var settings = {
     dots: false,
@@ -212,10 +213,6 @@ const PageFirst = () => {
         </div>
       </section>
       {/* top selling end */}
-
-     
-
-     
     </div>
   );
 };

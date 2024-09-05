@@ -40,7 +40,7 @@ const Products = (props) => {
       <div className="infoproduct">
         <span className="d-block catName">Snack</span>
         <h4 className="title">
-          <Link>Seeds of Change Organic Quinoa, Brown, & Red Rice</Link>
+          <Link to={"/product/details"}>Seeds of Change Organic Quinoa, Brown, & Red Rice</Link>
         </h4>
         <Rating
           name="simple-controlled"
@@ -59,7 +59,7 @@ const Products = (props) => {
           <span className="oldPrice">$32.8</span>
           <Button className="add ms-auto">
             <ShoppingCartOutlinedIcon />
-            Add
+            <Link to={"/cart"}>Add</Link>
           </Button>
         </div>
       </div>
