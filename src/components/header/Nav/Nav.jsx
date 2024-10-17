@@ -19,7 +19,7 @@ const Nav = () => {
     });
   }, []);
   return (
-    <div className="nav d-flex align-items-center" ref={headerRef}>
+    <div className="nav d-flex align-items-center d-sm-none d-lg-block" ref={headerRef}>
       <div className="container-fluid">
         <div className="row">
           <div

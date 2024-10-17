@@ -17,7 +17,10 @@ import LocalActivityOutlinedIcon from "@mui/icons-material/LocalActivityOutlined
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import ExitToAppOutlinedIcon from "@mui/icons-material/ExitToAppOutlined";
 import { ClickAwayListener } from "@mui/base/ClickAwayListener";
+import MenuIcon from "@mui/icons-material/Menu";
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import Nav from "./Nav/Nav";
+
 import { Link } from "react-router-dom";
 const Header = () => {
   const counryList = [];
@@ -46,16 +49,22 @@ const Header = () => {
           className="row align-items-center"
           style={{ paddingBottom: "30px" }}
         >
-          <div className="col-sm-2">
+          <div className="ham-burger col-sm-4 d-lg-none">
+            <MenuIcon fontSize="large" />
+          </div>
+          <div className="col-sm-4 col-lg-4 col-xl-2">
             <Link to={"/"}>
               {" "}
               <img src={Logo} alt="" />
             </Link>
           </div>
+          <div className="like-cart col-sm-2 d-lg-none ms-auto">
+          <ShoppingCartOutlinedIcon fontSize="large" className="me-3"/>
+          <FavoriteBorderOutlinedIcon fontSize="large"/>
+          </div>
           {/* header search start here */}
-
-          <div className="col-sm-5 d-flex align-items-center">
-            <div className="headerSearch d-flex align-items-center">
+          <div className="d-flex align-items-center col-lg-8 col-xl-5 d-sm-none d-lg-block">
+            <div className="headerSearch d-flex align-items-center ">
               <Select
                 items={[
                   "All Categories",
@@ -84,8 +93,8 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="col-sm-5 d-flex align-items-center">
-            <div className="ms-auto d-flex align-items-center">
+          <div className="d-flex align-items-center col-xl-5">
+            <div className="ms-auto d-flex align-items-center d-md-none d-xl-block">
               <div className="countryList">
                 <Select
                   items={counryList}

@@ -13,6 +13,16 @@ const CatSlider = () => {
     autoplay: false,
     autoplayspeed: 3000,
     fade: false,
+    responsive:[
+    {
+      breakpoint:1024,
+      settings:{
+        slidesToShow:2,
+        slidesToScroll:1,
+        infinite:true
+      }
+    }
+    ]
   };
   const [itemsBg, setitemsBg] = useState([
     "#f2fce4",
@@ -41,70 +51,6 @@ const CatSlider = () => {
                 </div>
               </div>
             ))}
-
-            {/* <div className="items">
-              <div className="info">
-                <img src={assets.Cat12} alt="" />
-                <h6>Cake and Milk</h6>
-                <p>26 items</p>
-              </div>
-            </div>
-            <div className="items">
-              <div className="info">
-                <img src={assets.Cat11} alt="" />
-                <h6>Cake and Milk</h6>
-                <p>26 items</p>
-              </div>
-            </div>
-            <div className="items">
-              <div className="info">
-                <img src={assets.Cat9} alt="" />
-                <h6>Cake and Milk</h6>
-                <p>26 items</p>
-              </div>
-            </div>
-            <div className="items">
-              <div className="info">
-                <img src={assets.Cat5} alt="" />
-                <h6>Cake and Milk</h6>
-                <p>26 items</p>
-              </div>
-            </div>
-            <div className="items">
-              <div className="info">
-                <img src={assets.Cat4} alt="" />
-                <h6>Cake and Milk</h6>
-                <p>26 items</p>
-              </div>
-            </div>
-            <div className="items">
-              <div className="info">
-                <img src={assets.Cat3} alt="" />
-                <h6>Cake and Milk</h6>
-                <p>26 items</p>
-              </div>
-            </div>
-            <div className="items">
-              <div className="info">
-                <img src={assets.Cat2} alt="" />
-                <h6>Cake and Milk</h6>
-                <p>26 items</p>
-              </div>
-            </div>
-            <div className="items">
-              <div className="info">
-                <img src={assets.Cat1} alt="" />
-                <h6>Cake and Milk</h6>
-                <p>26 items</p>
-              </div>
-            </div>
-            <div className="items">
-              <div className="info">
-                <img src={assets.Cat14} alt="" />
-                <h6>Cake and Milk</h6>
-                <p>26 items</p>
-              </div>
-            </div> */}
           </Slider>
         </div>
       </div>
