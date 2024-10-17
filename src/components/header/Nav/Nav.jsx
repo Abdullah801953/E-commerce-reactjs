@@ -36,7 +36,7 @@ const Nav = () => {
             <ul className="list list-inline mb-0">
               <li className="list-inline-item">
                 <Button>
-                  <Link to={"/"}>Home</Link>
+                  <Link to={"/"}>Homes</Link>
                 </Button>
               </li>
               <li className="list-inline-item">
