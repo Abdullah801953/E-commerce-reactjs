@@ -52,7 +52,7 @@ const Header = () => {
           <div className="ham-burger col-sm-4 d-lg-none">
             <MenuIcon fontSize="large" />
           </div>
-          <div className="col-sm-4 col-lg-4 col-xl-2">
+          <div className="col-sm-4 col-xl-2">
             <Link to={"/"}>
               {" "}
               <img src={Logo} alt="" />
@@ -63,7 +63,7 @@ const Header = () => {
           <FavoriteBorderOutlinedIcon fontSize="large"/>
           </div>
           {/* header search start here */}
-          <div className="d-flex align-items-center col-lg-8 col-xl-5 d-sm-none d-lg-block">
+          <div className="d-flex align-items-center col-xl-5 d-sm-none d-lg-block">
             <div className="headerSearch d-flex align-items-center ">
               <Select
                 items={[
@@ -94,7 +94,8 @@ const Header = () => {
           </div>
 
           <div className="d-flex align-items-center col-xl-5">
-            <div className="ms-auto d-flex align-items-center d-md-none d-xl-block">
+            <div className="ms-auto d-flex align-items-center
+            ">
               <div className="countryList">
                 <Select
                   items={counryList}
